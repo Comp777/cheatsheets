@@ -1,0 +1,34 @@
+	puts 'Rock, paper or scissors'
+	puts 'choice player'
+	choice_player = gets
+	choice_player = choice_player.strip
+    puts 'choice computer'
+    choices = ["rock", "paper", "scissors"]
+    choice_computer = choices.sample
+    puts choice_computer
+
+        # choice_computer = choice_computer.strip
+
+	if ((choice_player == 'rock') & (choice_computer == 'paper')) 
+		'You lose!'
+	elsif (choice_computer == 'rock')) 
+		'Try again!'
+	elsif (choice_computer == 'scissors')) 
+		'You win!'
+		end
+
+	if ((choice_player == 'paper') & (choice_computer == 'paper')) 
+		'Try again!'
+	elsif (choice_computer == 'rock')) 
+		'You win!'
+	elsif (choice_computer == 'scissors')) 
+		'You lose!'
+		end
+
+	if ((choice_player == 'scissors') & (choice_computer == 'paper')) 
+		'You win!'
+	elsif (choice_computer == 'rosk')) 
+		'You lose!'
+	elsif (choice_computer == 'scissors'))
+		'You lose!'
+		end
